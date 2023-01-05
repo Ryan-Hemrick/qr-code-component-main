@@ -74,7 +74,7 @@ p {
 /*########################
 Attribution Styles
 ##########################*/
-.attribution {
+footer  {
   position: absolute;
   width: 100%;
   bottom: 2px;
@@ -84,6 +84,7 @@ Attribution Styles
   transform: translateX(-50%);
   font-size: 11px;
   text-align: center;
+  z-index: -1;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
